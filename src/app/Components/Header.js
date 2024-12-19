@@ -47,10 +47,10 @@ const Header = () => {
               Home
             </a>
           </Link>
-          <Link href="/furniture" legacyBehavior>
+          <Link href="/products" legacyBehavior>
             <a
               className={activeLink === "/furniture" ? "active" : ""}
-              onClick={() => handleLinkClick("/furniture")}
+              onClick={() => handleLinkClick("/products")}
             >
               Furnitures
             </a>

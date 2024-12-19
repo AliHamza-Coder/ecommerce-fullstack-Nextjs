@@ -1,0 +1,70 @@
+.about-hero {
+  background-image: url("/images/slider2-grand1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.about-hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 3rem 0;
+}
+
+.about-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.values {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.value-item {
+  flex-basis: calc(33.333% - 20px);
+  background-color: #ecf0f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.value-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .value-item {
+    flex-basis: 100%;
+  }
+}
