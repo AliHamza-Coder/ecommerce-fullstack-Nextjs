@@ -1,0 +1,75 @@
+.nav-bar {
+    display: grid;
+    gap: 1.4rem;
+    padding: 20px 40px;
+    background-color: #7c7a7a;
+    color: #fff;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .log img {
+    width: 160px;
+    height: 40px;
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  .menu-bar {
+    border-top: 1.5px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+  }
+  .menu-bar a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+  }
+  .menu-bar a:hover,
+  .menu-bar a.active {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .shopping-cart {
+    position: relative;
+    cursor: pointer;
+  }
+  .circle-value {
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4f4f4f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  

@@ -1,8 +1,8 @@
+import Cart from "../Components/CartArea"
+
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <Cart/>
   )
 }
 

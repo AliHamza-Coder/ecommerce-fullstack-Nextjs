@@ -1,0 +1,116 @@
+.contactUs {
+    height: 100vh; /* Take full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light background for the section */
+  }
+  
+  .contact-box {
+    width: clamp(330px, 60vw, 600px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(81, 78, 78);
+    box-shadow: 0 0 10px #474747;
+    background-color: #fff;
+  }
+  
+  .contact-box h1 {
+    font-size: clamp(24px, 5vw, 36px); /* Dynamic font size */
+    margin-bottom: 15px;
+  }
+  
+  .contact-box form ::placeholder {
+    color: #444343;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #fefefe;
+    box-shadow: 0 0 10px #080808;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    color: #171717;
+    background-color: #f2f1f1;
+    resize: none;
+  }
+  
+  .contact-box form textarea {
+    height: clamp(115px, 20vw, 170px);
+  }
+  
+  input[type="submit"] {
+    background: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-box {
+      width: 90%; /* Take 90% of the width for smaller devices */
+      padding: 15px;
+    }
+  
+    .contact-box h1 {
+      font-size: clamp(20px, 5vw, 30px); /* Smaller title font on mobile */
+      margin-bottom: 10px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 12px; /* Larger padding for easier typing on mobile */
+    }
+  
+    input[type="submit"] {
+      padding: 12px 24px;
+      font-size: 18px; /* Slightly larger submit button on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-box {
+      width: 95%; /* Take almost full width for very small screens */
+      padding: 10px;
+    }
+  
+    .contact-box h1 {
+      font-size: clamp(18px, 5vw, 28px); /* Smaller font on very small devices */
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 10px;
+    }
+  
+    input[type="submit"] {
+      padding: 12px 24px;
+      font-size: 18px;
+    }
+  }
+  

@@ -1,0 +1,86 @@
+.hero {
+  background-image: linear-gradient(rgba(232, 229, 229, 0.49), rgba(255, 255, 255, 0.474)), url("/images/slider1-grand1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(105vh - 12rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  padding: 90px 0;
+  color: #827c7c;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+  font-size: 50px;
+  color: #494242; /* Add color to improve visibility on dark background */
+}
+
+.hero p {
+  font-size: clamp(12px, 2.5vw, 20px);
+  margin-bottom: 1.5rem;
+  width: 70%;
+  color: #574e4e; /* Add color to improve visibility on dark background */
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    height: 80vh; /* Adjust the height on large screens */
+  }
+
+  .hero-content {
+    padding: 60px 0;
+    margin-left: 0; /* Remove left margin for better centering */
+  }
+
+  .hero h1 {
+    font-size: 40px; /* Decrease font size on smaller screens */
+  }
+
+  .hero p {
+    width: 80%; /* Increase width of text container */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh; /* Adjust the height for tablet-sized screens */
+  }
+
+  .hero h1 {
+    font-size: 30px; /* Smaller title size on tablets */
+  }
+
+  .hero p {
+    width: 90%; /* Wider text container on tablets */
+    font-size: 16px; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 60vh; /* Reduce the height on small screens */
+  }
+
+  .hero h1 {
+    font-size: 25px; /* Further decrease title font size on smaller screens */
+  }
+
+  .hero p {
+    width: 100%; /* Full width on smaller screens */
+    font-size: 14px; /* Adjust font size */
+  }
+}
