@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="footer-logo">
             {/* Use Next.js Image component for the logo */}
             <Image
-              src="/Grand 1 - Furniture Store Responsive Magento Theme/logo-footer.png" // Path to your logo image
+              src="/images/logo-footer.png" // Path to your logo image
               alt="Furniture Store Logo"
               width={160} // Set the desired width
               height={40} // Set the desired height

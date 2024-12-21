@@ -13,3 +13,6 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+main {
+  padding: 20px 40px;
+}
